@@ -8,6 +8,7 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  box-sizing: border-box;
 }
 
 h1,
@@ -20,7 +21,8 @@ p,
 ul,
 ol,
 li,
-blockquote {
+blockquote,
+address {
   margin: 0;
   padding: 0;
 }
@@ -31,4 +33,11 @@ a {
 
 img {
   width: 100%;
+}
+
+address {
+  display: block;
+  font-style: normal;
+  width: 240px;
+  border: 1px;
 }
