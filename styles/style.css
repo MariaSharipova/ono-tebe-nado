@@ -4,8 +4,8 @@
     justify-items: center;
     align-items: center;
     width: 1052px;
-    height: 105px;
-    margin: 92px 24px 96px;
+    min-height: 105px;
+    margin: 92px 24px;
 }
 
 .header__menu {
@@ -15,7 +15,6 @@
 .header__links-list {
     display: flex;
     width: 391.48px;
-    height: 22px;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
@@ -58,7 +57,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 757px;
+    min-height: 757px;
     z-index: 0;
 }
 
@@ -74,7 +73,6 @@
 .cover__title {
     display: flex;
     flex-direction: column;
-    height: 355px;
     width: 1000px;
     margin: 165px 50px 0px;
     color: #FFF;
@@ -135,12 +133,12 @@
 .bet-button {
     background: transparent;
     width: 256px;
-    height: 51px;
     z-index: 2;
-    border-color: #FFF;
+    border: 1px solid #FFF;
     padding: 10px 20px;
     text-transform: uppercase;
     color: #FFF;
+    cursor: pointer;
     font-size: 22px;
     font-weight: 500;
     margin-right: 50px;
@@ -154,7 +152,6 @@
 
 .lots__heading {
     font-size: 40px;
-    width: 400;
     text-transform: uppercase;
     margin-left: 40px;
 }
@@ -185,7 +182,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 563px;
+    min-height: 563px;
     width: 100%;
     z-index: 0;
     padding: 52px 40px 48px;
@@ -281,8 +278,7 @@
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    height: 98px;
-    margin: 183px 50px 100px;
+    margin: 159px 50px 100px;
 }
 
 .footer__address {
@@ -294,7 +290,6 @@
 .footer__menu-list {
     display: flex;
     width: 149px;
-    height: 64px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -303,9 +298,9 @@
 
 .footer__menu-list-item {
     list-style: none;
+    font-size: 18px;
     text-underline-offset: 4px;
-    letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 21px;
 }
 
 .footer__menu-link_active {
